@@ -46,12 +46,9 @@
      
       <div>
         <h3>And here's my school!</h3>
-        <iframe
-          width="600"
-          height="450"
-          frameborder="0" style="border:0"
-          src="https://www.google.com/maps/embed/v1/place?key=API_KEY&q=UC+San+Diego" allowfullscreen>
-          </iframe>
+        <iframe width="600" height="450" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJT69MQcQG3IARpz6Rifyqtu8&key=..." allowfullscreen>
+        </iframe>
       </div>
       <hr>
       
@@ -195,20 +192,26 @@
               <p>Check out all these different types of inputs!</p>
               
               <input type="button" value="Sweet button!">
+              <br>
               
               <input type="checkbox" id="chkbox" checked>
               <label for="chkbox">Check box!!!</label>
+              <br>
               
               <input type="color" id="clrbox" name="clrbox" value="#e66465">
               <label for="clrbox">What a nice color!</label>
+              <br>
               
               <label for="wow">Pick some random date?</label>
               <input type="date" id="wow" value="2020-05-28" min="2018-01-01" max="2025-12-31">
+              <br>
               
               <label for="coolpic">Upload your coolest picture:</label>
               <input type="file" id="coolpic" accept="image/png, image/jpeg">
+              <br>
               
               <input type="hidden" id="supersecret" name="supersecret" value="0010010110000011">
+              <br>
               
               <input type="image" id="atomimg" src="atom.png">
               <label for="atomimg">Nice pic of an old-school atom!</label>
@@ -242,8 +245,6 @@
           <caption>Truth table for <code>XOR</code>:</caption>
           <colgroup>
             <col>
-            <col span="1">
-            <col span="1">
           </colgroup>
           <tr>
             <th>0</th>
