@@ -1,6 +1,291 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Document title</title>
+    <meta charset="utf-8">
+    <title>Arman Mansourian's User Page</title>
+    <link rel="icon" href="atom.png">
+    <link rel="shortcut" href="#">
   </head>
+  
+  <body>
+    <header>
+      <h1>Welcome to my page!</h1>
+      <picture>
+        <source srcset="selfie.png">
+        <img src="selfie.png" width="256">
+      </picture>
+    </header>
+    
+    <nav>
+      <a href="#aboutme">About me</a> |
+      <a href="#contacts">Contact information</a> |
+      <a href="#links">Links</a> |
+    </nav>
+      
+    <main>
+      <section id="aboutme">
+        <h2>About me:</h2>
+        <p>
+          My name is Arman Mansourian. I am a <strong>Computer Science</strong> student
+          at <b>University of California San Diego</b> with interests in <em>machine learning applications</em>,
+          computer vision, and health. <br> I am also a voluneer for <i>The Brain Institute</i> at <b>Chapman University</b>
+          as a research programmer writing experiments using EyeLink eye trackers.
+        </p>
+        <aside>Currently open for Software Engineering roles starting Summer or Fall 2021.</aside>
+      </section>
+      <hr>
+      
+      <div>
+        <h3>And obviously,</h3>
+        <code>
+          >>> print('I love to code :)') <br>
+          I love to code :)
+        </code>
+      </div>
+      <hr>
+     
+      <div>
+        <h3>And here's my school!</h3>
+        <iframe
+          width="600"
+          height="450"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=API_KEY&q=UC+San+Diego" allowfullscreen>
+          </iframe>
+      </div>
+      <hr>
+      
+      <section id="contacts">
+        <h2>Contact:</h2>
+        <code>mansourianarman@gmail.com</code> or <code>armansou@ucsd.edu</code>
+      </section>
+      <hr>
+      
+      <section id="links">
+        <h2>Links:</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/arman-mansourian/">LinkedIn Profile></a></li>
+          <li><a href="https://github.com/amansourian">GitHub Profile></a></li>
+        </ul>    
+      </section>
+      <hr>
+      
+      <section>
+        <figure>
+          <pre>
+     ,     ,
+    (\____/)
+     (_oo_)
+       (O)
+     __||__    \)
+  []/______\[] /
+  / \______/ \/
+ /    /__\
+(\   /____\
+          </pre>
+          <figcaption>ASCII robot waving.</figcaption>
+        </figure>
+      </section>
+      <hr>
+      
+      <section>
+        <h2>Goals for 2021:</h2>
+        <ul>
+          <li>Contribute more to open-source projects</li>
+          <li>Get the fancy undergraduate degree</li>
+          <li>Run <span style="color:#DC143C">365</span> miles</li>
+        </ul>    
+      </section>
+      <hr>
+      
+      <section>
+        <figure>
+          <figcaption>Listen to the soothing sounds of jungle rain:</figcaption>
+          <audio
+            controls
+              src="costa_rica_jungle.mp3">
+              Your browser does not support the <code>audio</code> element.
+          </audio>
+        </figure>
+      </section>
+      <hr>
+      
+      <section>
+        <h3>We live in a busy world, just look at these cars!</h3>
+        <video controls width="250">
+          <source src="traffic.mp4"
+                type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+      </section>
+      <hr>
+      
+      <section>
+        <h3>Here's a cool canvas feature:</h3>
+        <canvas width="300" height="300">
+          Quite spectacular if you ask me.
+        </canvas>
+        <hr>
+        
+        <h3>Also check out these cool vector graphics:</h3>
+        <svg height="140" width="140">
+          <defs>
+            <filter id="f1" x="0" y="0" width="200%" height="200%">
+              <feOffset result="offOut" in="SourceAlpha" dx="20" dy="20" />
+              <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+              <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+            </filter>
+          </defs>
+          <rect width="90" height="90" stroke="green" stroke-width="3" fill="yellow" filter="url(#f1)" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+      </section>
+      <hr>
+      
+      <section>
+        <h3>We can make some pretty sweet forms with HTML too, check it out:</h3>
+        <form>
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </li>
+            
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="email">
+            </li>
+            
+            <li>
+              <label for="lang-select">Pick your favorite programming language:</label>
+              <select id="lang-select">
+                <optgroup label="Compiled">
+                  <option>Go</option>
+                  <option>Haskell</option>
+                  <option>C++</option>
+                  <option>Rust</option>
+                  <option>Java</option>
+                </optgroup>
+                <optgroup label="Interpreted">
+                  <option>JavaScript</option>
+                  <option>Perl</option>
+                  <option>Python</option>
+                  <option>BASIC</option>
+                  <option>Lua</option>
+                </optgroup>
+              </select>
+            </li>
+            
+            <li>
+              <fieldset>
+                <legend>Choose your favorite operating system:</legend>
+
+                <input type="radio" id="macOS" name="os">
+                <label for="macOS">macOS</label><br/>
+
+                <input type="radio" id="Windows" name="os">
+                <label for="Windows">Windows</label><br/>
+
+                <input type="radio" id="Linux" name="os">
+                <label for="Linux">Linux</label>
+              </fieldset>
+            </li>
+            
+            <li>
+              <p>Check out all these different types of inputs!</p>
+              
+              <input type="button" value="Sweet button!">
+              
+              <input type="checkbox" id="chkbox" checked>
+              <label for="chkbox">Check box!!!</label>
+              
+              <input type="color" id="clrbox" name="clrbox" value="#e66465">
+              <label for="clrbox">What a nice color!</label>
+              
+              <label for="wow">Pick some random date?</label>
+              <input type="date" id="wow" value="2020-05-28" min="2018-01-01" max="2025-12-31">
+              
+              <label for="coolpic">Upload your coolest picture:</label>
+              <input type="file" id="coolpic" accept="image/png, image/jpeg">
+              
+              <input type="hidden" id="supersecret" name="supersecret" value="0010010110000011">
+              
+              <input type="image" id="atomimg" src="atom.png">
+              <label for="atomimg">Nice pic of an old-school atom!</label>
+            </li>
+            
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            
+            <li>
+              <label for="ucsd-years">How many years at UCSD?</label>
+              <input list="years_opt" id="ucsd-years" name="ucsd-years" />
+
+              <datalist id="years_opt">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5+">
+              </datalist>
+            </li>
+          </ul>
+        </form>
+      </section>
+      <hr>
+      
+      <section>
+        <h3>Now lets play with some tables!</h3>
+        <table>
+          <caption>Truth table for <code>XOR</code>:</caption>
+          <colgroup>
+            <col>
+            <col span="1">
+            <col span="1">
+          </colgroup>
+          <tr>
+            <th>0</th>
+            <th>1</th>
+          </tr>
+          <tr>
+            <th scope="0">0</th>
+            <td>0</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <th scope="1">1</th>
+            <td>1</td>
+            <td>0</td>
+          </tr> 
+        </table>
+      </section>
+      <hr>
+      
+      <section>
+        <h3>Now lets play with some interactive elements!</h3>
+        <details>
+          <summary>What's in here?</summary>
+          Nothing. Bet you thought it was going to be something, huh?
+        </details>
+        <hr>
+        <p>Also here's a random button that also doesn't do anything ;)</p>
+        <button name="button">Press me!</button>
+      </section>
+      <hr>
+      
+      <section>
+        <div id="container">Once we start using JavaScript, these templates will be more relevant!</div>
+        <template id="template">
+          <div>Mystery template...</div>
+        </template>
+      </section>
+      <hr>
+      
+      <footer>
+        <h3>Thanks for checking out my sweet web page! <code>B)</code></h3>
+      </footer>
+    </main>
+  </body>
 </html>
