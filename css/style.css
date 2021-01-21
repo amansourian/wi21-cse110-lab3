@@ -8,6 +8,12 @@ CSE 110 - Software Engineering
     src: url(../fonts/tajawal-bold.ttf);
 }
 
+@media screen and (min-width: 900px) {
+  body {
+    display: flex;   
+  }
+}
+
 .header {
   color: rgb(127, 127, 127);
   font-size: 1em;
