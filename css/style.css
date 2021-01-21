@@ -38,6 +38,7 @@ CSE 110 - Software Engineering
 
 body {
   background-color: lightblue;
+  display: inline-block;
 }
 
 section {
@@ -71,9 +72,11 @@ h1:hover{
 }
 
 h2:active{
+  display: none;
 }
 
 ul {
+  display: inline;
 }
 
 form {
@@ -81,6 +84,7 @@ form {
   border-color: white blue;
   border-width: medium;
   border-radius: 50% 20% / 10% 40%;
+  display: block;
 }
 
 ul.form-list li {
