@@ -39,6 +39,11 @@ CSE 110 - Software Engineering
   color: #FFFFFF;
 }
 
+#selfie {
+  width: auto;
+  height: auto;
+}
+
 * {
   width: auto;
   height: auto;
