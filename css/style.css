@@ -23,6 +23,12 @@ CSE 110 - Software Engineering
   font-size: 1em;
 }
 
+.input-types {
+  grid-auto-rows: auto;
+  grid-auto-columns: auto;
+  grid-auto-flow: column;
+}
+
 #contacts {
   color: #FFFFFF;
 }
