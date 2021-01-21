@@ -5,7 +5,7 @@ CSE 110 - Software Engineering
 
 @font-face {
     font-family: Tajawal;
-    src: url(../fonts/Tajawal-Bold.ttf);
+    src: url("../fonts/Tajawal-Bold.ttf");
 }
 
 @media screen and (min-width: 900px) {
