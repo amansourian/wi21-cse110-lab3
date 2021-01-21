@@ -1,13 +1,13 @@
-.header{
+.header {
 }
 
-.aboutme{
+.aboutme {
 }
 
-.footer{
+.footer {
 }
 
-#contacts{
+#contacts {
 }
 
 * {
@@ -41,6 +41,9 @@ ul {
 }
 
 ul.form-list li {
+}
+
+ul.form-list > label {
 }
 
 a[href] {
