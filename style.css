@@ -23,11 +23,13 @@ CSE 110 - Software Engineering
 }
 
 * {
-  color: white;
+  width: auto;
+  height: auto;
   margin: auto;
   padding: auto;
-  height: auto;
-  width: auto;
+  color: white;
+  text-align: center;
+  
 }
 
 body {
@@ -52,6 +54,7 @@ div {
 
 h1 {
   font-size: 10Q;
+  text-decoration: white wavy underline;
 }
 
 h2, h3, h4 {
