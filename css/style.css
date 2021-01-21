@@ -30,7 +30,7 @@ CSE 110 - Software Engineering
 }
 
 #vid {
-  width: 200px;
+  max-width: 50%;
   height: auto;
 }
 
@@ -41,6 +41,7 @@ CSE 110 - Software Engineering
   padding: auto;
   color: white;
   text-align: center;
+  font-family: Tajawal;
 }
 
 body {
@@ -53,6 +54,7 @@ body {
 
 section {
   color: hsl(30, 100%, 50%, 0.6);
+  max-width: 50%;
 }
 
 section[id="links"] {
@@ -131,7 +133,7 @@ a[href] {
 }
 
 p {
-  font-family: verdana;
+  font-family: Tajawal;
   font-size: 20px;
 }
 
