@@ -10,9 +10,6 @@
 #contacts{
 }
 
-#links{
-}
-
 * {
 }
 
@@ -23,6 +20,9 @@ body {
 section {
 }
 
+section[id="links"] {
+}
+
 div {
 }
 
@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-a {
+a[href] {
 }
 
 p {
