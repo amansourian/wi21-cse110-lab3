@@ -60,11 +60,14 @@ div {
 h1 {
   font-size: 10Q;
   text-decoration: white wavy underline;
+  max-width: 95%;
 }
 
 h2, h3, h4 {
   color: white;
   text-align: center;
+  max-width: 90%;
+  min-width: 5%;
 }
 
 h1:hover{
