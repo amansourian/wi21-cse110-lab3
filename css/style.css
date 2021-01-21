@@ -88,6 +88,9 @@ form {
   border-width: medium;
   border-radius: 50% 20% / 10% 40%;
   display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-shrink: 1;
 }
 
 ul.form-list li {
