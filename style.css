@@ -20,9 +20,18 @@ body {
   background-color: lightblue;
 }
 
-h1 {
+section {
+}
+
+div {
+}
+
+h1, h2, h3, h4 {
   color: white;
   text-align: center;
+}
+
+a {
 }
 
 p {
