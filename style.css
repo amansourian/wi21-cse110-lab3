@@ -24,10 +24,10 @@ CSE 110 - Software Engineering
 
 * {
   color: white;
-  border: thick double;
-  border-color: white blue;
-  border-width: medium;
-  border-radius: 50% 20% / 10% 40%;
+  margin: auto;
+  padding: auto;
+  height: auto;
+  width: auto;
 }
 
 body {
@@ -44,6 +44,10 @@ section[id="links"] {
 }
 
 div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 h1 {
@@ -65,10 +69,22 @@ h2:active{
 ul {
 }
 
+form {
+  border: thick double;
+  border-color: white blue;
+  border-width: medium;
+  border-radius: 50% 20% / 10% 40%;
+}
+
 ul.form-list li {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 ul.form-list > label {
+  margin: 1px, 1px, 1px, 1px;
 }
 
 div ~ section {
