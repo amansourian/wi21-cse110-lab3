@@ -95,21 +95,26 @@ ul.form-list li {
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
+  position: absolute;
 }
 
 ul.form-list > label {
   margin: 1px, 1px, 1px, 1px;
+  position: fixed;
 }
 
 div ~ section {
+  position: relative;
 }
 
 section + div {
+  position: sticky;
 }
 
 a[href] {
   margin-top: 10pt;
   font-size 2rem;
+  position: static;
 }
 
 p {
