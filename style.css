@@ -4,12 +4,15 @@ CSE 110 - Software Engineering
 */
 
 .header {
+  color: rgb(127, 127, 127);
 }
 
 .aboutme {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer {
+  color: rgb(127, 127, 127);
 }
 
 #contacts {
