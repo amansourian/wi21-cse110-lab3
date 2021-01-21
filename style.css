@@ -46,6 +46,9 @@ ul.form-list li {
 ul.form-list > label {
 }
 
+div ~ section {
+}
+
 a[href] {
 }
 
