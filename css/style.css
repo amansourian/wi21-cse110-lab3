@@ -5,9 +5,24 @@ CSE 110 - Software Engineering
 
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@800&display=swap');
 
+* {
+  font-family: Tajawal;
+  margin: auto;
+  padding: auto;
+  color: blue;
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+  display: inline-block;
+  grid-auto-rows: auto;
+  grid-auto-columns: auto;
+  grid-auto-flow: column;
+}
+
 .header {
   color: rgb(127, 127, 127);
-  font-size: 1em;
 }
 
 .aboutme {
@@ -17,7 +32,7 @@ CSE 110 - Software Engineering
 
 .footer {
   color: rgb(127, 127, 127);
-  font-size: 1em;
+  font-size: 3em;
 }
 
 #contacts {
@@ -32,24 +47,6 @@ CSE 110 - Software Engineering
 #vid {
   max-width: 50%;
   height: auto;
-}
-
-* {
-  width: auto;
-  height: auto;
-  margin: auto;
-  padding: auto;
-  color: white;
-  text-align: center;
-  font-family: Tajawal;
-}
-
-body {
-  background-color: lightblue;
-  display: inline-block;
-  grid-auto-rows: auto;
-  grid-auto-columns: auto;
-  grid-auto-flow: column;
 }
 
 section {
@@ -70,7 +67,7 @@ div {
 }
 
 h1 {
-  font-size: 10Q;
+  font-size: 50Q;
   text-decoration: white wavy underline;
   max-width: 50%;
 }
@@ -94,15 +91,16 @@ ul {
   display: inline;
 }
 
+
 form {
   border: thick double;
   border-color: white blue;
   border-width: medium;
-  border-radius: 50% 20% / 10% 40%;
+  border-radius: 10% 10% / 10% 10%;
   display: block;
   flex-direction: column;
   flex-wrap: wrap;
-  flex-shrink: 1;
+  flex-shrink: 0;
 }
 
 ul.form-list li {
@@ -110,7 +108,6 @@ ul.form-list li {
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
-  position: absolute;
 }
 
 ul.form-list > label {
@@ -138,7 +135,8 @@ p {
 }
 
 @media screen and (min-width: 900px) {
-  body {
+  h3 {
     display: flex;   
   }
 }
+
