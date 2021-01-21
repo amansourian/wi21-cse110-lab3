@@ -27,9 +27,11 @@ body {
 }
 
 section {
+  color: hsl(30, 100%, 50%, 0.6);
 }
 
 section[id="links"] {
+  color: hsla(30, 100%, 50%, 0.6);
 }
 
 div {
